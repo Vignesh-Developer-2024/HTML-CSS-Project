@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore - Online Shopping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./Assets/logo.png" width="125" alt="">
+                </div>
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About</a></li> 
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="./Assets/cart.png" alt="Cart BTN" width="25px" height="25px">
+                <img src="./Assets/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Discover the Best Deals on Fashion, Electronics, and More<br> Shop Now for Exclusive Offers!</h1>
+                    <p>Explore a Wide Range of Products at Unbeatable Prices <br> Shop Your Favorites Today!</p>
+                    <a href="" class="btn">Explore now &#8677</a>
+                </div>
+                <div class="col-2">
+                    <img src="./Assets/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------feature categories----------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./Assets/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./Assets/category-3.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./Assets/category-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------feature product----------------->
+    <div class="small-container">
+        <h2 class="title">Feature Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./Assets/product-1.jpg" alt="">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>                  
+                </div>
+                <p>&#8377;250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-2.jpg" alt="">
+                <h4>Black Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>   
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;1200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-3.jpg" alt="">
+                <h4>Track Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>   
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;399.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-4.jpg" alt="">
+                <h4>Blue Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;350.00</p>
+            </div>
+        </div>
+        <div class="title">Latest Product</div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./Assets/product-5.jpg" alt="">
+                <h4>Gray Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>                  
+                </div>
+                <p>&#8377;2500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-6.jpg" alt="">
+                <h4>Black Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>   
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-7.jpg" alt="">
+                <h4>Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>   
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-8.jpg" alt="">
+                <h4>Black Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;900.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./Assets/product-9.jpg" alt="">
+                <h4>Gray Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>                  
+                </div>
+                <p>&#8377;750.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-10.jpg" alt="">
+                <h4>Black Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>   
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;550.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-11.jpg" alt="">
+                <h4>Gray Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>   
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;400.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/product-12.jpg" alt="">
+                <h4>Black Track Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;250.00</p>
+            </div>
+        </div>
+    </div>
+    <!--------------offers----------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./Assets/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi smart band 4 features a 39.9% larger then Mi band 3 AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------testimonial----------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"Great selection of products at unbeatable prices! I found everything I needed and more. The website is easy to navigate, making it a pleasure to shop!"</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="./Assets/user-1.png" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"I was amazed by the customer service and fast delivery. The items I ordered arrived on time and exactly as described. Will definitely shop again!"</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="./Assets/user-2.png" alt="">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"The products I bought were top-notch! The quality exceeded my expectations, and the shopping experience was smooth and hassle-free. Highly recommend!"</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="./Assets/user-3.png" alt="">
+                    <h3>Mobel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------brand-------------------->
+    <div class="brand">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./Assets/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./Assets/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./Assets/logo-philips.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./Assets/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./Assets/logo-oppo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------footer--------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Downlode our app</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./Assets/play-store.png" alt="">
+                        <img src="./Assets/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./Assets/logo-white.png" alt="">
+                    <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+                </div>
+                
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2025 </p>
+        </div>
+    </div>
+
+    <script>
+        var menuitem=document.getElementById('menuitem');
+        menuitem.style.maxHeight='0px'
+        function menutoggle(){
+            if(menuitem.style.maxHeight=='0px')
+        {
+            menuitem.style.maxHeight='200px'
+        }
+        else{
+            menuitem.style.maxHeight='0px'
+        }
+        }
+    </script>
+</body>
+</html>
